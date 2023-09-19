@@ -1,0 +1,102 @@
+.App{
+  font-family: Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body{
+    background-color: #4dabee;
+}
+
+.logo-box{
+  background-color: #fff;
+  padding: 30px 120px;
+  min-width: 550px;
+  position: absolute;
+  border-radius: 8px;
+  transform: translate();
+  text-align: center;
+  box-shadow: 2px 2px 4px #535252;
+}
+.logo{
+  width: 45px;
+  margin-bottom: 16px;
+}
+
+.logo-box h2{
+  margin-bottom: 20px;
+}
+.gLogo{
+  width: 35px;
+}
+
+.logo-box button{
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:4px;
+  margin: 20px 0;
+  border-radius: 30px;
+  background:transparent;
+  border: 1px solid #999;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logo-box .ttn{
+  padding: 11px;
+}
+
+.logo-box span{
+  display: block;
+  width: 40px;
+  margin: auto;
+  font-size: 14px;
+  background-color: #fff;
+  margin-top: -10px;
+}
+form{
+  margin-top: 13px;
+}
+.logo-box input{
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+  background: transparent;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+
+::placeholder{
+  font-weight: 500;
+  color: #123;
+}
+
+.logo-box form button{
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.logo-box .dlTone{
+  border: none;
+  color: #999;
+  margin-bottom: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: navy;
+}
+
+@media (max-width:600px) {
+   .logo-box{
+    min-width: 80%;
+    padding: 14%;
+   }
+}
